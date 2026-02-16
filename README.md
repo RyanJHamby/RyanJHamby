@@ -8,14 +8,6 @@ High-performance systems · Fintech & trading infrastructure · AI agent orchest
 
 ---
 
-## Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RyanJHamby&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true" height="150" />
-</p>
-
----
-
 ## Stack
 
 **Systems & Performance**
