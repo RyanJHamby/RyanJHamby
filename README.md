@@ -16,5 +16,5 @@ Software engineer at AWS (New York). Rust, C++, and distributed systems.
 
 ## Also built
 
-- **[Macro Trading System](https://github.com/RyanJHamby/macro-factor-decomposition)**: PCA regime classification, Kelly sizing, VaR monitoring over an 18-year FRED backtest
+- **[Macro Trading System](https://github.com/RyanJHamby/macro-factor-decomposition)**: PCA regime classification and Kelly sizing over an 18-year FRED backtest
 - **[Equity Signal Engine](https://github.com/RyanJHamby/stock-screener)**: daily 3,800+ stock scanner, automated with GitHub Actions
