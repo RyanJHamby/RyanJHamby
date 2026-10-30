@@ -4,7 +4,7 @@
 
 High-performance systems · Fintech & trading infrastructure · AI agent orchestration · Cloud-native architecture
 
-> For the full picture — projects, writing, and more — visit **[ryanjhamby.github.io](https://ryanjhamby.github.io/)**
+> For the full picture — projects, writing, and more — visit **[ryanjhamby.dev](https://ryanjhamby.dev/)**
 
 ---
 
@@ -61,7 +61,7 @@ High-performance systems · Fintech & trading infrastructure · AI agent orchest
 ---
 
 <p align="center">
-  <a href="https://ryanjhamby.github.io/">Website</a> ·
+  <a href="https://ryanjhamby.dev/">Website</a> ·
   <a href="https://linkedin.com/in/ryan-j-hamby/">LinkedIn</a> ·
   <a href="mailto:ryan.j.hamby@gmail.com">Email</a>
 </p>
