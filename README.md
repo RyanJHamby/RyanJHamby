@@ -4,9 +4,9 @@ Software engineer at AWS (New York). Rust, C++, and distributed systems.
 
 ## Projects
 
-- **[GPU Flight Recorder](https://github.com/RyanJHamby/distributed-gpu-training-flight-recorder)**: finds the straggling rank in distributed GPU training and explains why it is slow, by joining PyTorch NCCL collective timings with per-GPU NVML telemetry (Go, gRPC). Validated in simulation; real-GPU run next.
+- **[GPU Flight Recorder](https://github.com/RyanJHamby/distributed-gpu-training-flight-recorder)**: finds the straggling rank in distributed GPU training and explains why it is slow, by joining PyTorch NCCL collective timings with per-GPU NVML telemetry (Go, gRPC). Early build; no validation results yet.
 - **[FlowState](https://github.com/RyanJHamby/FlowState)**: Rust as-of join engine with zero-copy Arrow, Rayon-parallel merge scans, and streaming watermark joins.
-- **[Order Book Engine](https://github.com/RyanJHamby/order-book-engine)**: C++20 matching engine; P50 0.21 µs, P99.9 3.1–3.2 µs on EC2 `c6i.large`, lock-free SPSC ingestion, slab memory pools.
+- **[Order Book Engine](https://github.com/RyanJHamby/order-book-engine)**: C++20 matching engine; P50 0.21 µs, P99.9 3.1–3.2 µs on EC2 `c6i.large` (per the repo README), lock-free SPSC ingestion, slab memory pools.
 
 ## Open Source Contributions
 
@@ -16,5 +16,5 @@ Software engineer at AWS (New York). Rust, C++, and distributed systems.
 
 ## Also built
 
-- **[Macro Trading System](https://github.com/RyanJHamby/macro-factor-decomposition)**: PCA regime classification and Kelly sizing over an 18-year FRED backtest
+- **[Macro Trading System](https://github.com/RyanJHamby/macro-factor-decomposition)**: PCA regime classification and Kelly sizing over a 17-year FRED backtest (figures in the repo README)
 - **[Equity Signal Engine](https://github.com/RyanJHamby/stock-screener)**: daily 3,800+ stock scanner, automated with GitHub Actions
