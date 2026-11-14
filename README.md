@@ -10,9 +10,16 @@ Software engineer at AWS (New York). Rust, C++, and distributed systems.
 
 ## Open Source Contributions
 
-- **[vllm-project/vllm#48420](https://github.com/vllm-project/vllm/pull/48420)** (merged): fixed a `StopIteration` crash in Qwen3-Omni multimodal processing when a video has no audio track but `use_audio_in_video=True` is requested, plus two follow-on false-positive paths in processor caching
+- **[vllm-project/vllm#48420](https://github.com/vllm-project/vllm/pull/48420)** (merged): fixed a `StopIteration` crash in Qwen3-Omni multimodal processing when a video has no audio track but `use_audio_in_video=True` is requested, plus two follow-on false-positive paths in processor caching ([write-up](https://ryanjhamby.substack.com/p/the-fix-for-a-qwen3-omni-crash-broke))
 - **[firecracker-microvm/firecracker#6032](https://github.com/firecracker-microvm/firecracker/pull/6032)** (merged): fixed a VMM panic on ACPI device restore when `EventFd` creation fails
 - **[firecracker-microvm/firecracker#6033](https://github.com/firecracker-microvm/firecracker/pull/6033)** (merged, docs): documented a DNS lookup delay caused by an IPv6 resolver stall
+
+## Writing
+
+I write up measured results, including the dead ends, on [Substack](https://ryanjhamby.substack.com) ([subscribe](https://ryanjhamby.substack.com/subscribe)).
+
+- **[The fix for a Qwen3-Omni crash broke CI two ways](https://ryanjhamby.substack.com/p/the-fix-for-a-qwen3-omni-crash-broke)**: my first vLLM fix, the review that replaced it, and the two CI failures that followed
+- **[Why I paused the site-control checker I built for PJM's interconnection queue](https://ryanjhamby.substack.com/p/why-i-paused-the-site-control-checker)**: the Zonevex postmortem, with the outreach result and what I would build instead
 
 ## Also built
 
