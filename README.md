@@ -1,6 +1,8 @@
 I make AI compute fast, efficient, and reliable, from the serving layer down to the hardware and the power behind it.
 
-Software engineer at AWS (New York). Rust, C++, and distributed systems.
+Senior Software Engineer on an inference data plane at an AI company (New York); previously AWS, on payments and IoT. Rust, C++, and distributed systems.
+
+**Open to:** advising AI-infrastructure and payments startups, technical diligence for investors, and early conversations with founders. [ryan.j.hamby@gmail.com](mailto:ryan.j.hamby@gmail.com)
 
 ## Projects
 
