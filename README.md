@@ -1,12 +1,15 @@
 I make AI compute fast, efficient, and reliable, from the serving layer down to the hardware and the power behind it.
 
-Software engineer at AWS (New York). Rust, C++, and distributed systems.
+Senior Software Engineer on an inference data plane at an AI company (New York); previously AWS, on payments and IoT. Rust, C++, and distributed systems.
+
+**Open to:** advising AI-infrastructure and payments startups, technical diligence for investors, and early conversations with founders. [ryan.j.hamby@gmail.com](mailto:ryan.j.hamby@gmail.com)
 
 ## Projects
 
 - **[GPU Flight Recorder](https://github.com/RyanJHamby/distributed-gpu-training-flight-recorder)**: finds the straggling rank in distributed GPU training and explains why it is slow, by joining PyTorch NCCL collective timings with per-GPU NVML telemetry (Go, gRPC). Validated in simulation; real-GPU run next.
 - **[FlowState](https://github.com/RyanJHamby/FlowState)**: Rust as-of join engine with zero-copy Arrow, Rayon-parallel merge scans, and streaming watermark joins.
 - **[Order Book Engine](https://github.com/RyanJHamby/order-book-engine)**: C++20 matching engine; P50 0.21 µs, P99.9 3.1–3.2 µs on EC2 `c6i.large`, lock-free SPSC ingestion, slab memory pools.
+- **[autopilot-kit](https://github.com/RyanJHamby/autopilot-kit)**: guardrails for coding agents working across my repos: reusable GitHub Actions workflows and stdlib scripts (guard, gate, handshake, automerge) that repos pin by commit SHA, with no tokens or network access in the scripts.
 
 ## Open Source Contributions
 
@@ -23,5 +26,5 @@ I write up measured results, including the dead ends, on [Substack](https://ryan
 
 ## Also built
 
-- **[Macro Trading System](https://github.com/RyanJHamby/macro-factor-decomposition)**: PCA regime classification and Kelly sizing over an 18-year FRED backtest
+- **[Macro Trading System](https://github.com/RyanJHamby/macro-factor-decomposition)**: PCA regime classification and Kelly sizing over FRED data (backtest being rerun with lagged signals)
 - **[Equity Signal Engine](https://github.com/RyanJHamby/stock-screener)**: daily 3,800+ stock scanner, automated with GitHub Actions
